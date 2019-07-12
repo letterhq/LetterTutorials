@@ -1,0 +1,29 @@
+{
+  "id": "bcc68663",
+  "name": "FlatBannerTutorial",
+  "version": "1.0.0",
+  "description": "A tutorial for flat banner",
+  "summary": "Explains how to make a flat banner plugin",
+  "author": "PL",
+  "website": "",
+  "main": "main.js",
+  "languages": ["en"],
+  "host": {
+    "app": "XD",
+    "minVersion": "19.0"
+  },
+  "uiEntryPoints": [
+    {
+      "label": "Letter Export",
+      "type": "menu",
+      "menuItems": [
+        { 
+          "type": "menu",
+          "label": "Export Artboard To Flat Banner",
+          "commandId": "showFlatRenditionOption"
+        }
+      ]
+      
+    }
+  ]
+}
